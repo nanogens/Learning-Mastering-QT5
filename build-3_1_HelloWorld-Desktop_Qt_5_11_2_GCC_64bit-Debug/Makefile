@@ -35,7 +35,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = 3_1_HelloWorld1.0.0
-DISTDIR = /mnt/LMQT5/build-3_1_HelloWorld-Desktop_Qt_5_11_2_GCC_64bit-Debug/.tmp/3_1_HelloWorld1.0.0
+DISTDIR = /mnt/github/Learning-Mastering-QT5/build-3_1_HelloWorld-Desktop_Qt_5_11_2_GCC_64bit-Debug/.tmp/3_1_HelloWorld1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/mt/Qt/5.11.2/gcc_64/lib
 LIBS          = $(SUBLIBS) -L/home/mt/Qt/5.11.2/gcc_64/lib -lQt5Core -lpthread 
@@ -744,7 +744,22 @@ main.o: ../3_1_HelloWorld/main.cpp /home/mt/Qt/5.11.2/gcc_64/include/QtCore/QCor
 		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qvarlengtharray.h \
 		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qcontainerfwd.h \
 		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qobject_impl.h \
-		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qeventloop.h
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qeventloop.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/QtDebug \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qdebug.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qhash.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qmap.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qtextstream.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qiodevice.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qlocale.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qvariant.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qshareddata.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qvector.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qpoint.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qset.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qsharedpointer.h \
+		/home/mt/Qt/5.11.2/gcc_64/include/QtCore/qsharedpointer_impl.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../3_1_HelloWorld/main.cpp
 
 ####### Install
