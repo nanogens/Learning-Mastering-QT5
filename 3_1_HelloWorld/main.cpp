@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 
     // with #include <QtDebug>
     qDebug() << "Hello Qt World!" << "My" << 2 << "application.";
-    int num = 1;
+    int num = 2;
     std::cout << "Hello Qt World" << num << std::endl;
     return a.exec();
 }
